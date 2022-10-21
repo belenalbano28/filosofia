@@ -69,3 +69,40 @@ body{
     align-items: center;
     
   }
+
+  @media screen and (max-width: 480px)  {
+    .box {
+        background: white;
+        width: 90%;
+        border: 2px solid rgb(87, 124, 233);
+        border-radius: 6px;
+        height: 80%;
+        margin: 6% auto;
+        padding: 10px;
+        box-shadow: 0 0 3em rgb(0 0 0 / 14%);
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto {
+        color: #6c6c6c;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5%;
+        text-align: center;
+        font-size: 135%;
+    }
+    .titulo {
+        margin: -20px auto;
+        width: 70%;
+        text-align: center;
+        font-size: 180%;
+        color: #3c3c3d;
+    }
+    .siguiente{
+        font-size: 20px;
+    }
+    
+}
