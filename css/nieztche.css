@@ -147,8 +147,48 @@ progress{
 #contenedor1{
     display: block;
 }
-
-@media screen and (min-width: 480px)  {
-
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 20px;
+}
+.opciones div{
+    display: flex;
+    justify-content: center;
+}
+.opciones div label{
+    line-height: 2.5;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px)  {
+    .sub-titulo {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+        font-size: 140%;
+        color: #6c6c6c;
+    }
+    .titulo {
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 1%;
+        font-size: 200%;
+        color: #181818;
+    }
+    .box{
+        width: 70%;
+    }
+    .texto {
+        color: #1b1b1b;
+        width: 80%;
+        font-size: 140%;
+        margin: auto;
+        margin-top: 15%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .siguiente{
+        font-size: 19px;
+    }
     
 }
