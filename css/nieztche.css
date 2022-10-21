@@ -160,6 +160,15 @@ input[type=radio] {
     line-height: 2.5;
     font-size: 20px;
 }
+.texto2{
+    color: #1b1b1b;
+    width: 80%;
+    font-size: 150%;
+    margin: auto;
+    margin-top: 15%;
+    padding-bottom: 20px;
+    text-align: center;
+}
 @media screen and (max-width: 480px)  {
     .sub-titulo {
         text-align: center;
@@ -189,6 +198,37 @@ input[type=radio] {
     }
     .siguiente{
         font-size: 19px;
+    }
+    .finalizacion{
+        margin-top: -55%;
+
+    }
+    .texto2{
+        color: #1b1b1b;
+        width: 80%;
+        font-size: 150%;
+        margin: auto;
+        margin-top: 15%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .siguiente2{
+        font-family: inherit;
+        font-size: 22px;
+        text-align: center;
+        align-items: center;
+        width: 150px;
+        margin-bottom: -20%;
+        background: royalblue;
+        color: white;
+        padding: 0.7em 1.5em;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        border: none;
+        border-radius: 16px;
+        overflow: hidden;
+        transition: all 0.2s;
     }
     
 }

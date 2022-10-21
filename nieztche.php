@@ -586,7 +586,7 @@
 
                 <div class="finalizacion" id="finalizacion">
                     <div class="texto1" id="texto"><?php echo $_SESSION['nombre']; ?></div>
-                    <div class="texto" id="resultado"></div>
+                    <div class="texto2" id="resultado"></div>
                     <div class="wrap"><button onclick="location.href='php/logout.php'" class="siguiente2">Finalizar</button></div>
                 </div>
            </body>
