@@ -1145,7 +1145,7 @@ function guardar(){
     data = {nombre: nombre};
   $.ajax({
     type: 'POST',
-    url: 'php/usuariosession.php',
+    url: 'filosofia/php/usuariosession.php',
     data: data, // access in body
   }).done(function (msg) {
     if(msg==true){
