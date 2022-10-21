@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.barra{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+}
+progress{
+    width: 50%;
+    height: 20%;
+    margin: 20% auto;
+}
+.titulo{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 200%;
+    color: #3c3c3d;
+}
+.finalizacion{
+    display: none;
+    justify-content: center;
+    /* margin: auto; */
+    align-items: center;
+    width: 100%;
+    margin-top: -25%;
+    height: 30%;
+
+
+}
+.texto{
+    color: #525252;
+    width: 80%;
+    font-size: 120%;
+    margin: auto;
+    margin-top: 3%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.texto1{
+    color: #303030;
+    width: 80%;
+    font-size: 190%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.sub-texto{
+    color: #525252;
+    width: 80%;
+    font-size: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.box{
+    background: white;
+    width: 50%;
+    border-radius: 6px;
+    height: 30%;
+    border: 2px solid rgb(76, 108, 206);
+    margin: 10% auto;
+    padding: 10px;
+    box-shadow: 0 0 3em rgb(0 0 0 / 34%);
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.sub-titulo{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 120%;
+    color: #6c6c6c;
+}
+
+
+
+/* From uiverse.io by @adamgiebl */
+.siguiente{
+    font-family: inherit;
+    font-size: 15px;
+    margin-bottom: -20%;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   .siguiente:hover{
+    background: rgb(79, 117, 230);
+   }
+   .siguiente2{
+    font-family: inherit;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    margin-bottom: -20%;
+    background: royalblue;
+    color: white;
+    padding: 0.7em 2em;
+    padding-left: 50px;
+    /* padding-left: 0.9em; */
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   .siguiente2:hover{
+    background: rgb(79, 117, 230);
+   }
+   .opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.opciones input{
+    margin: 0.8rem;
+    margin-left: 40px;
+}
+.wrap{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: none;
+}
+#contenedor1{
+    display: block;
+}
