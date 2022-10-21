@@ -217,7 +217,7 @@
                 </div>
                 <div class="box contenedor" id="contenedor11">
                     <div class="texto">
-                        ¿vives la vida de forma superficial y si cuestionarte demasiado?
+                        ¿vives la vida de forma superficial y sin cuestionarte demasiado?
                     </div>
                     <div class="opciones">
                         <div>
@@ -458,7 +458,7 @@
               
                 <div class="box contenedor" id="contenedor24">
                     <div class="texto">
-                        sientes que rechazar esta moral:
+                        sientes que rechazar la moral que te fue impuesta:
                     </div>
                     <div class="opciones">
                         <div>
@@ -497,27 +497,7 @@
                 <div class="wrap"><button onclick="cambiarcontenedor(25)" class="siguiente">Siguiente</button></div>
                     
                 </div>
-                <div class="box contenedor" id="contenedor27">
-                    <div class="texto">
-                        ¿sientes que has alcanzado la libertad?
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c27opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c27opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                
-                <div class="wrap"><button onclick="cambiarcontenedor(27)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
+               
                 <div class="box contenedor" id="contenedor29">
                     <div class="texto">
                         ¿te describirías a ti mismo como una persona autonoma?
