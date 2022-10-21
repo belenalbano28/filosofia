@@ -186,6 +186,8 @@ input[type=radio] {
     }
     .box{
         width: 70%;
+    height: 45%;
+
     }
     .texto {
         color: #1b1b1b;
