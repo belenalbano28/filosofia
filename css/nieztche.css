@@ -169,6 +169,15 @@ input[type=radio] {
     padding-bottom: 20px;
     text-align: center;
 }
+.texto3{
+    color: #3c3c3c;
+    width: 80%;
+    font-size: 100%;
+    margin: auto;
+    margin-top: 8%;
+    padding-bottom: 20px;
+    text-align: center;
+}
 @media screen and (max-width: 480px)  {
     .sub-titulo {
         text-align: center;
@@ -209,6 +218,15 @@ input[type=radio] {
         color: #1b1b1b;
         width: 80%;
         font-size: 150%;
+        margin: auto;
+        margin-top: 8%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .texto3{
+        color: #3c3c3c;
+        width: 80%;
+        font-size: 100%;
         margin: auto;
         margin-top: 8%;
         padding-bottom: 20px;

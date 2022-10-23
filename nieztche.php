@@ -437,7 +437,7 @@
                 </div>
                 <div class="box contenedor" id="contenedor22">
                     <div class="texto">
-                        ¿te coonsideras incorformista?
+                        ¿te consideras incorformista?
                     </div>
                     <div class="opciones">
                         <div>
@@ -567,6 +567,7 @@
                 <div class="finalizacion" id="finalizacion">
                     <div class="texto1" id="texto"><?php echo $_SESSION['nombre']; ?></div>
                     <div class="texto2" id="resultado"></div>
+                    <div class="texto3" id="recomendacion"></div>
                     <div class="wrap"><button onclick="location.href='php/logout.php'" class="siguiente2">Finalizar</button></div>
                 </div>
            </body>

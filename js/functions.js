@@ -22,6 +22,18 @@ function cambiarcontenedor(x){
               $('#contenedor'+x).toggle('slow');
               $('#contenedor'+a).toggle('slow');
             }else if($('#c'+x+'opcion2').is(':checked')){
+              data = {puntos: 1};
+              $.ajax({
+                type: 'POST',
+                url: 'php/leonsession.php',
+                data: data, // access in body
+              }).done(function (msg) {
+              }).fail(function (msg) {
+               console.log(msg);
+                
+              }).always(function (msg) {
+                
+              });
               $('#contenedor'+x).toggle('slow');
               $('#contenedor'+a).toggle('slow');
             }
@@ -1125,6 +1137,7 @@ function fin(){
                     }).done(function (msg) {
                       nino=msg;
                       var texto;
+                      var def;
                       let lista=[leon,camello,nino];
                       var mayor = lista[0];
                       for(i=1;i<lista.length;i++){
@@ -1133,16 +1146,22 @@ function fin(){
                       }
                       if(nino==mayor){
                         texto='Niño';
+                        def='En el niño encontramos la libertad del ser humano, su máxima autonomía y afirmación. El niño ha dejado atrás sus cargas, y también el rechazo de las mismas.';
                       }else if(camello==mayor){
                         texto='Camello';
+                        def='El camello representa al individuo que, de forma consciente o no, deforma su postura y su mente llevando una carga que considera propia, aunque no lo sea. Esto en ocasiones puede impedirle avazar libremente.';
                       }else{
                         texto='León';
+                        def='El león representa al sujeto que ha reconocido lo innecesario de su carga, y por ello la rechaza. Es afirmación, es ira, es ímpetu, pero también incapacidad de trascender su batalla.';
                       }
-                        //recomendacion='Felicitaciones! eres clasificado por Niezche como un super-humano. ';
-                       // $('#recomendacion').html(recomendacion);
-                     
+                       
+                     console.log(camello);
+                     console.log(leon);
+                     console.log(nino);
+                     console.log(mayor);
+
                       $('#resultado').html('Eres: '+texto);
-                   
+                      $('#recomendacion').html(def);
 
                     }).fail(function (msg) {
                      console.log(msg);
