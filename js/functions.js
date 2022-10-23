@@ -186,7 +186,7 @@ function cambiarcontenedor(x){
             }
         break;
         case 6:
-            var a=x+1;
+            var a=x+2;
 
             if($('#c'+x+'opcion1').is(':checked')){
                 data = {puntos: 1};
@@ -235,56 +235,7 @@ function cambiarcontenedor(x){
                 $('#contenedor'+a).toggle('slow');
             }
         break;
-        case 7:
-            var a=x+1;
 
-            if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/ninosession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                  
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
         case 8:
             var a=x+1;
 
@@ -413,7 +364,7 @@ function cambiarcontenedor(x){
             }
         break;
         case 11:
-            var a=x+1;
+            var a=x+2;
 
             if($('#c'+x+'opcion1').is(':checked')){
                 data = {puntos: 1};
@@ -450,44 +401,7 @@ function cambiarcontenedor(x){
                 $('#contenedor'+a).toggle('slow');
             }
         break;
-        case 12:
-            var a=x+1;
 
-            if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
         case 13:
             var a=x+1;
 
@@ -527,7 +441,7 @@ function cambiarcontenedor(x){
             }
         break;
         case 14:
-            var a=x+1;
+            var a=x+3;
 
             if($('#c'+x+'opcion1').is(':checked')){
                 data = {puntos: 1};
@@ -564,96 +478,8 @@ function cambiarcontenedor(x){
                 $('#contenedor'+a).toggle('slow');
             }
         break;
-        case 15:
-            var a=x+1;
-
-            if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/ninosession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                  
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
-        case 16:
-            var a=x+1;
-
-            if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-            $('#contenedor'+a).toggle('slow');
-                
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                  
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
+       
+       
         case 17:
             var a=x+1;
 
@@ -850,47 +676,7 @@ function cambiarcontenedor(x){
             }
         break;
         case 22:
-            var a=x+2;
-
-            if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-                
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
-        
-        case 24:
-            var a=x+1;
+            var a=x+7;
 
             if($('#c'+x+'opcion1').is(':checked')){
                 data = {puntos: 1};
@@ -906,9 +692,9 @@ function cambiarcontenedor(x){
                 }).always(function (msg) {
                   
                 });
-            
                 $('#contenedor'+x).toggle('slow');
                 $('#contenedor'+a).toggle('slow');
+                
             }else if($('#c'+x+'opcion2').is(':checked')){
                 
                 data1 = {puntos: 1};
@@ -928,52 +714,12 @@ function cambiarcontenedor(x){
                 $('#contenedor'+a).toggle('slow');
             }
         break;
-        
-        case 25:
-            var a=x+4;
 
-                if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/leonsession.php',
-                  data: data, // access in body
-                }).done(function (msg) {
-                 
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-            
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }else if($('#c'+x+'opcion2').is(':checked')){
-                
-                data1 = {puntos: 1};
-                $.ajax({
-                  type: 'POST',
-                  url: 'php/camellosession.php',
-                  data: data1, // access in body
-                }).done(function (msg) {
-                  
-                }).fail(function (msg) {
-                 console.log(msg);
-                  
-                }).always(function (msg) {
-                  
-                });
-                $('#contenedor'+x).toggle('slow');
-                $('#contenedor'+a).toggle('slow');
-            }
-        break;
-       
         case 29:
             var a=x+2;
 
             if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 1};
+                data = {puntos: 2};
                 $.ajax({
                   type: 'POST',
                   url: 'php/ninosession.php',
@@ -1013,7 +759,7 @@ function cambiarcontenedor(x){
             var a=x+1;
 
             if($('#c'+x+'opcion1').is(':checked')){
-                data = {puntos: 3};
+                data = {puntos: 4};
                 $.ajax({
                   type: 'POST',
                   url: 'php/ninosession.php',
@@ -1138,12 +884,17 @@ function fin(){
                       nino=msg;
                       var texto;
                       var def;
-                      let lista=[leon,camello,nino];
-                      var mayor = lista[0];
-                      for(i=1;i<lista.length;i++){
-                          if(lista[i] > mayor)
-                              mayor=lista[i];
-                      }
+                      var mayor;
+                     let lista=[leon,camello,nino];
+                     // var mayor = lista[0];
+                     // for(i=1;i<lista.length;i++){
+                     //     if(lista[i] > mayor)
+                     //         mayor=lista[i];
+                     // }
+                     lista=lista.sort(function(a, b){return b - a});
+                     console.log(lista);
+                     mayor=lista[0];
+                  
                       if(nino==mayor){
                         texto='Niño';
                         def='En el niño encontramos la libertad del ser humano, su máxima autonomía y afirmación. El niño ha dejado atrás sus cargas, y también el rechazo de las mismas.';
@@ -1186,14 +937,7 @@ function fin(){
 			}
 		},100);
 }
-function mayor(lista){
-  var mayor = lista[0];
-for(i=1;i<lista.length;i++){
-    if(lista[i] > mayor)
-        mayor=lista[i];
-}
-return mayor;
-}
+
 function guardar(){
 
     var nombre = document.getElementById('nombre').value;

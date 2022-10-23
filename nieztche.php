@@ -135,26 +135,7 @@
                 <div class="wrap"><button onclick="cambiarcontenedor(6)" class="siguiente">Siguiente</button></div>
                     
                 </div>
-                <div class="box contenedor" id="contenedor7">
-                    <div class="texto">
-                        ¿piensas que te valoras a ti mismo?
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c7opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c7opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                <div class="wrap"><button onclick="cambiarcontenedor(7)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
+                
                 <div class="box contenedor" id="contenedor8">
                     <div class="texto">
                         ¿te consideras esclavo de tu moral?
@@ -235,26 +216,7 @@
                 <div class="wrap"><button onclick="cambiarcontenedor(11)" class="siguiente">Siguiente</button></div>
                     
                 </div>
-                <div class="box contenedor" id="contenedor12">
-                    <div class="texto">
-                        ¿piensas que te dedicas a trabajar sin preguntarte por qué?
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c12opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c12opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                <div class="wrap"><button onclick="cambiarcontenedor(12)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
+             
                 <div class="box contenedor" id="contenedor13">
                     <div class="texto">
                         ¿sientes que algunas situaciones/creencias te impiden avanzar?
@@ -295,46 +257,8 @@
                 <div class="wrap"><button onclick="cambiarcontenedor(14)" class="siguiente">Siguiente</button></div>
                     
                 </div>
-                <div class="box contenedor" id="contenedor15">
-                    <div class="texto">
-                        ¿ves viable para tu vida actuar de otra forma?
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c15opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c15opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                <div class="wrap"><button onclick="cambiarcontenedor(15)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
-                <div class="box contenedor" id="contenedor16">
-                    <div class="texto">
-                        ¿sientes inquietud por averiguar tu lugar en el mundo?
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c16opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c16opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                <div class="wrap"><button onclick="cambiarcontenedor(16)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
+                
+
                 <div class="box contenedor" id="contenedor17">
                     <div class="texto">
                         ¿te cuestionas qué es bueno y qué es malo?
@@ -456,47 +380,7 @@
                     
                 </div>
               
-                <div class="box contenedor" id="contenedor24">
-                    <div class="texto">
-                        sientes que rechazar la moral que te fue impuesta:
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c24opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">te libera</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c24opcion2" name="drone" value="dewey">
-                            <label for="dewey">te ata</label>
-                          </div>
-                      
-                    </div>
-                <div class="wrap"><button onclick="cambiarcontenedor(24)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
-                <div class="box contenedor" id="contenedor25">
-                    <div class="texto">
-                        pretendes alcanzar la libertad haciendo 'lo que quieres' y no 'lo que debes'
-                    </div>
-                    <div class="opciones">
-                        <div>
-                            <input type="radio" id="c25opcion1" name="drone" value="huey"
-                                   checked>
-                            <label for="huey">si</label>
-                          </div>
-                      
-                          <div>
-                            <input type="radio" id="c25opcion2" name="drone" value="dewey">
-                            <label for="dewey">no</label>
-                          </div>
-                      
-                    </div>
-                
-                <div class="wrap"><button onclick="cambiarcontenedor(25)" class="siguiente">Siguiente</button></div>
-                    
-                </div>
+              
                
                 <div class="box contenedor" id="contenedor29">
                     <div class="texto">
